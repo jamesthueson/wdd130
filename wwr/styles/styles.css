@@ -1,8 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
 nav a {
     text-align: center;
     color: #E29578;
     text-decoration: none;
+    padding: 35px;
 }
 .button-box {
     text-align: center;
@@ -13,11 +17,12 @@ nav a {
 main section {
     text-align: center;
 }
-#background {
-    height: 725px;
-}
 body {
     background-color: #fcfbfb; 
+    font-family: 'Poppins', 'Roboto', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #006D77;
@@ -30,26 +35,44 @@ nav a:hover {
     background-color: #E29578;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 .book:hover, .join:hover {
     background-color: #E29578;
     color: black;
 }
 #background{
-    background-color: #83C5BE;
+    background-color: #006D77;
+    height: 725px;
 }
 .msg {
     background-color: #006D77;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
+    font-family: 'Roboto', 'sans-serif', 'Poppins';
 }
 .msg p {
     color: #E29578;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #E29578;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -63,19 +86,35 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: black;
+    font-family: 'Roboto', 'sans-serif', 'Poppins';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #E29578;
 }
+h2 {
+    margin: 0;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
